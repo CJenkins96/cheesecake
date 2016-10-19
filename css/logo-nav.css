@@ -29,4 +29,8 @@ body {
 .navbar-inverse {
     background: #1A1AFF;
     color: #000;
+} 
+
+img:hover {
+    opacity: 0.25;
 }
