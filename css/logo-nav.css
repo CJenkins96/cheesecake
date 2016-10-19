@@ -26,7 +26,7 @@ body {
     }
 }
 
-.navbar-nav < li < a {
+.navbar-inverse < .container < .navbar-colapse < .navbar-nav < ul < li < a{
     background: #1A1AFF;
     color:  #4dffff;
 } 
