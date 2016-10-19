@@ -26,7 +26,7 @@ body {
     }
 }
 
-.navbar-inverse {
+.navbar-nav < li < a {
     background: #1A1AFF;
     color:  #4dffff;
 } 
