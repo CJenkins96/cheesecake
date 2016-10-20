@@ -30,7 +30,7 @@ body {
     background: #1A1AFF;
 }
 
-ul .navbar-nav .navbar-toggle > li a {
+.navbar-inverse .navbar-nav > li > a {
     color:  #4DFFFF;
 }
 
