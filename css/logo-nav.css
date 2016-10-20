@@ -30,7 +30,7 @@ body {
     background: #1A1AFF;
 }
 
-li < a {
+ul .navbar-nav .navbar-toggle > li a {
     color:  #4DFFFF;
 }
 
