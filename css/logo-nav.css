@@ -37,3 +37,7 @@ body {
 nav < img {
     padding-right: 15px;
 }
+
+hr {
+    height: 2px;
+}
