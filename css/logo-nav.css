@@ -45,3 +45,7 @@ hr {
 .navbar-default .navbar-nav > .active > a {
     background: lightblue;
 }
+
+.jumbotron {
+    background: #59689a;
+}
