@@ -32,3 +32,40 @@ $(document).ready(function(){
     });
   });
 })
+
+
+// Problem: user when clicking on image goes to dead end
+// Solution: Create overlay with the large image
+
+var $XyzSummon = $('<div id="overlay"></div>');
+var $image = $("<img>");
+var $caption = $("<p></p");
+
+$XyzSummon.append($image);
+
+// Add overlay
+$("body").append($XyzSummon);
+    // An image
+    // A caption
+$XyzSummon.append($caption);
+
+// capture click event on a to an image
+$("#imageGallery a").click(function(event){
+    event.preventDefault();
+    var imageLocation = $(this).attr("href");
+    // Update overlay with the image linked in the link
+    $image.attr("src", imageLocation);
+    
+    // Show the overlay
+    $XyzSummon.show();
+    
+    // Get child's alt atribute and set caption
+    var captionText = $(this).children("img").attr("alt");
+    $caption.text(captionText);
+});
+
+// When overlay is clicked
+$XyzSummon.click(function(){
+    // Hide the overlay
+    $XyzSummon.hide();
+});
