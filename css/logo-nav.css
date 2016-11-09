@@ -64,6 +64,9 @@ hr {
 
 #overlay img {
     margin-top: 10%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 #overlay p {
