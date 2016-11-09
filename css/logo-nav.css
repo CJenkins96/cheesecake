@@ -64,6 +64,7 @@ hr {
 
 #overlay img {
     margin: auto;
+    margin-top: 10%;
     display: block;
     max-width: 100%;
     height: auto;
