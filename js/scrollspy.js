@@ -50,7 +50,7 @@ $("body").append($XyzSummon);
 $XyzSummon.append($caption);
 
 // capture click event on a to an image
-$("#imageGallery a").click(function(event){
+$(".imageGallery a").click(function(event){
     event.preventDefault();
     var imageLocation = $(this).attr("href");
     // Update overlay with the image linked in the link
