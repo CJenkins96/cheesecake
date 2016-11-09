@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 var $XyzSummon = $('<div id="overlay"></div>');
 var $image = $("<img>");
-var $caption = $("<p></p");
+var $caption = $("<p></p>");
 
 $XyzSummon.append($image);
 
