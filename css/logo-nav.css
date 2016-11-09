@@ -74,3 +74,7 @@ hr {
 #overlay p {
     color: white;
 }
+
+.carousel-indicators li { 
+    visibility: hidden; 
+}
