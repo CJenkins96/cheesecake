@@ -82,3 +82,7 @@ hr {
 .media {
     background: #FFF
 }
+
+.media > .media-left > img {
+    size: 140px;
+}
