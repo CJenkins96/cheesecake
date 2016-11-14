@@ -78,3 +78,7 @@ hr {
 .carousel-indicators li { 
     visibility: hidden; 
 }
+
+.media {
+    background: #FFF
+}
