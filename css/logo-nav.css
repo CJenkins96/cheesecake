@@ -84,4 +84,5 @@ hr {
 }
 .media-object {
     padding-left: 10px;
+    border-radius: 6px;
 }
