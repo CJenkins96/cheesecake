@@ -82,3 +82,6 @@ hr {
 .media {
     background: #FFF
 }
+.media-object {
+    padding-left: 10px;
+}
