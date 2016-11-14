@@ -86,3 +86,7 @@ hr {
     padding-left: 10px;
     border-radius: 6px;
 }
+
+.navbar-inverse .navbar-nav > .active > a {
+    background: #66ccff;
+}
