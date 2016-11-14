@@ -83,6 +83,6 @@ hr {
     background: #FFF
 }
 
-.media > .media-left > img {
+.media > img {
     width: 140px;
 }
