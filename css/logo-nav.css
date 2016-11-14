@@ -91,6 +91,11 @@ hr {
     background: #66ccff;
 }
 
-.navbar-inverse.navbar-nav:hover {
-    background: rgba(102, 204, 255, .9);
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background: #66ccff;
+}
+
+.navbar-inverse .navbar-nav > li:hover {
+    background: rgba(102, 204, 255, .7);
 }
