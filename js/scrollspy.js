@@ -38,7 +38,7 @@ $(document).ready(function(){
 // Solution: Create overlay with the large image
 
 var $XyzSummon = $('<div id="overlay"></div>');
-var $image = $("<img>");
+var $image = $('<img class="img-responsice">');
 var $caption = $("<p></p>");
 
 $XyzSummon.append($image);
